@@ -1,0 +1,32 @@
+{
+  "name": "page-pen",
+  "version": "1.0.0",
+  "description": "小巧的js库可以在自己编写的博客中方便高亮和笔记，使用chrome插件可以扩展到所有网页",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangyefei/page-pen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangyefei/page-pen/issues"
+  },
+  "homepage": "https://github.com/tangyefei/page-pen#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
