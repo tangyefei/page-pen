@@ -1,5 +1,5 @@
 
-import './base.scss';
+import './css/base.scss';
 
 // import Utils from './utils';
 import {PEN_IDLE, PEN_DOWN, PEN_UP} from './constant';
